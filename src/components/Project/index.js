@@ -1,1 +1,0 @@
-card that map through all the projects act 16 friend card 

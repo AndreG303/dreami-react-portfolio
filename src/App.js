@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import './css/body.css';
+import './css/heading.css';
+import './css/styles.css';
+import Home from './pages/home';
+import Portfolio from "./pages/Portfolio"
+import Contact from "./pages/contact"
+import {HashRouter as Router, Route} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+      <Route exact={true} path={["/", "/home"]}>
+          <Home />
+        </Route>
+        <Route exact={true} path="/portfolio">
+          <Portfolio />
+        </Route>
+        <Route exact={true} path="/contact">
+          <Contact />
+        </Route>
+      </Router>
     </div>
   );
 }
