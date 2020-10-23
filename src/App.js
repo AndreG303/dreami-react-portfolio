@@ -1,7 +1,5 @@
 import React from 'react';
 import './css/body.css';
-import './css/heading.css';
-import './css/styles.css';
 import Home from './pages/home';
 import Portfolio from "./pages/Portfolio"
 import Contact from "./pages/contact"
