@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.414fac9a.chunk.css",
-    "main.js": "/static/js/main.b1f3013e.chunk.js",
-    "main.js.map": "/static/js/main.b1f3013e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.30060759.js",
-    "runtime-main.js.map": "/static/js/runtime-main.30060759.js.map",
-    "static/css/2.6414bb7b.chunk.css": "/static/css/2.6414bb7b.chunk.css",
-    "static/js/2.bf0eb868.chunk.js": "/static/js/2.bf0eb868.chunk.js",
-    "static/js/2.bf0eb868.chunk.js.map": "/static/js/2.bf0eb868.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.06ab1ab56c26c4254a1ce1c19ca25d55.js": "/precache-manifest.06ab1ab56c26c4254a1ce1c19ca25d55.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.6414bb7b.chunk.css.map": "/static/css/2.6414bb7b.chunk.css.map",
-    "static/css/main.414fac9a.chunk.css.map": "/static/css/main.414fac9a.chunk.css.map",
-    "static/js/2.bf0eb868.chunk.js.LICENSE.txt": "/static/js/2.bf0eb868.chunk.js.LICENSE.txt"
+    "main.css": "/dreami-react-portfolio/static/css/main.414fac9a.chunk.css",
+    "main.js": "/dreami-react-portfolio/static/js/main.45723c5d.chunk.js",
+    "main.js.map": "/dreami-react-portfolio/static/js/main.45723c5d.chunk.js.map",
+    "runtime-main.js": "/dreami-react-portfolio/static/js/runtime-main.c5a1eb7b.js",
+    "runtime-main.js.map": "/dreami-react-portfolio/static/js/runtime-main.c5a1eb7b.js.map",
+    "static/css/2.6414bb7b.chunk.css": "/dreami-react-portfolio/static/css/2.6414bb7b.chunk.css",
+    "static/js/2.bf0eb868.chunk.js": "/dreami-react-portfolio/static/js/2.bf0eb868.chunk.js",
+    "static/js/2.bf0eb868.chunk.js.map": "/dreami-react-portfolio/static/js/2.bf0eb868.chunk.js.map",
+    "index.html": "/dreami-react-portfolio/index.html",
+    "precache-manifest.e6bbc6d0123722605bfeaf7b69cc2838.js": "/dreami-react-portfolio/precache-manifest.e6bbc6d0123722605bfeaf7b69cc2838.js",
+    "service-worker.js": "/dreami-react-portfolio/service-worker.js",
+    "static/css/2.6414bb7b.chunk.css.map": "/dreami-react-portfolio/static/css/2.6414bb7b.chunk.css.map",
+    "static/css/main.414fac9a.chunk.css.map": "/dreami-react-portfolio/static/css/main.414fac9a.chunk.css.map",
+    "static/js/2.bf0eb868.chunk.js.LICENSE.txt": "/dreami-react-portfolio/static/js/2.bf0eb868.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.30060759.js",
+    "static/js/runtime-main.c5a1eb7b.js",
     "static/css/2.6414bb7b.chunk.css",
     "static/js/2.bf0eb868.chunk.js",
     "static/css/main.414fac9a.chunk.css",
-    "static/js/main.b1f3013e.chunk.js"
+    "static/js/main.45723c5d.chunk.js"
   ]
 }
