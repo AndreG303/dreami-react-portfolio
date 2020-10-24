@@ -1,5 +1,7 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
 import './css/body.css';
+
 import Home from './pages/home';
 import Portfolio from "./pages/Portfolio"
 import Contact from "./pages/contact"
