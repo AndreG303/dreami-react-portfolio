@@ -43,7 +43,7 @@ function Portfolio() {
                         <div className="card h-100">
                             <div className="card-body">
                                 <h3 className="card-title">STELLAR SONIC</h3>
-                                <img src="assets/images/Stellar sonic.png" className="card-img-top" alt="pasword generator" />
+                                <img src="/dreami-react-portfolio/assets/images/Stellar sonic.png" className="card-img-top" alt="pasword generator" />
                                 <p className="card-text">A place to share your sound!(project 2)</p>
                                 <a href="https://dry-shelf-60979.herokuapp.com/" className="btn btn-primary">Check it
                             out</a>
@@ -56,7 +56,7 @@ function Portfolio() {
                         <div className="card h-100">
                             <div className="card-body">
                                 <h3 className="card-title">EMPLOYEE TEMPLATE GENERATOR</h3>
-                                <img src="assets/images/Screen Shot 2020-08-11 at 7.13.40 PM copy.png" className="card-img-top" alt="Smokey game" />
+                                <img src="/dreami-react-portfolio/assets/images/Screen Shot 2020-08-11 at 7.13.40 PM copy.png" className="card-img-top" alt="Smokey game" />
                                 <p className="card-text">A software engineering team generator command line application</p>
                                 <a href="https://scratch.mit.edu/projects/396064541" className="btn btn-primary">check it out</a>
                                 <a href="https://github.com/AndreG303/Employee-Template-Generator-" className="btn btn-primary">Github
@@ -68,7 +68,7 @@ function Portfolio() {
                         <div className="card h-100">
                             <div className="card-body">
                                 <h3 className="card-title">WEATHER DASHBOARD</h3>
-                                <img src="assets/images/weather.png" className="card-img-top" alt="Weather-Dashboard-AG" />
+                                <img src="/dreami-react-portfolio/assets/images/weather.png" className="card-img-top" alt="Weather-Dashboard-AG" />
                                 <p className="card-text">A Weather Dashboard application retrieving data from a third party API
                             (openWeather API), using HTML, CSS and Jquery.</p>
                                 <a href="https://andreg303.github.io/Weather-Dashboard-AG/index.html"
@@ -82,7 +82,7 @@ function Portfolio() {
                         <div className="card h-100">
                             <div className="card-body">
                                 <h3 className="card-title">SUPER QUIZ GAMEZ</h3>
-                                <img src="assets/images/quiz.png" className="card-img-top" alt="superquizgamez" />
+                                <img src="/dreami-react-portfolio/assets/images/quiz.png" className="card-img-top" alt="superquizgamez" />
                                 <p className="card-text">A responsive timed code and trivia quiz with multiple-choice questions and
                             interactive challenges.</p>
                                 <a href=" https://andreg303.github.io/superquizgamez/" className="btn btn-primary">Play</a>
@@ -95,7 +95,7 @@ function Portfolio() {
                         <div className="card h-100">
                             <div className="card-body">
                                 <h3 className="card-title">WORK DAY PLANNER</h3>
-                                <img src="assets/images/calendar.png" className="card-img-top" alt="work day planner" />
+                                <img src="/dreami-react-portfolio/assets/images/calendar.png" className="card-img-top" alt="work day planner" />
                                 <p className="card-text">A simple calendar application that allows the user to save events for each
                             hour of the day.</p>
                                 <a href="https://andreg303.github.io/WorkDaySchedulerAG/" className="btn btn-primary">Check it
@@ -109,7 +109,7 @@ function Portfolio() {
                         <div className="card h-100">
                             <div className="card-body">
                                 <h3 className="card-title">VIRTUAL ART GALLERY</h3>
-                                <img src="assets/images/gallery.png" className="card-img-top" alt="Virtual_Art_Gallery" />
+                                <img src="/dreami-react-portfolio/assets/images/gallery.png" className="card-img-top" alt="Virtual_Art_Gallery" />
                                 <p className="card-text">Dynamic gallery App that can search for pieces of fantasy artwork based on
                             the user input or at random.</p>
                                 <a href="https://nlamonaco86.github.io/Virtual_Art_Gallery/" className="btn btn-primary">Check it
@@ -125,7 +125,7 @@ function Portfolio() {
                 <nav
                     className="navbar fixed-bottom navbar-light bg-transparent flex-fill justify-content-center padding-top: 60px;">
                     <span className="navbar-text">
-                        win win win win <span role="img" aria-label="Heart">❤️</span> &COPY; andreaMgamez </span>
+                        win win win win <span role="img" aria-label="Heart">❤️</span> <span dangerouslySetInnerHTML={{ "__html": "&copy;" }} /> andreaMgamez </span>
                 </nav>
             </footer>
         </Fragment>

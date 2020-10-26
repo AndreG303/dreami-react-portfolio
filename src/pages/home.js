@@ -42,14 +42,14 @@ function Home() {
                 <div className="container card mb-3" style={{ maxWidth: "540px" }}>
                     <div className="row no-gutters">
                         <div className="col-md-3">
-                            <img style={{ backgroundImage: `url("../assets/images/IMG_3096.jpg")` }} className="card-img img-fluid" alt="selfie" />
+                            <img src={`/dreami-react-portfolio/assets/images/IMG_3096.jpg`} className="card-img img-fluid" alt="selfie" />
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
                                 <h3 className="card-title">ANDREA M GAMEZ</h3>
                                 <p className="card-text">Creative Full Stack Web Developer with a broad customer service background.
                                 Bilingual, problem solver, versatile, organized and detail-oriented. Skilled in HTML, CSS, Bootstrap, JavaScript, JQuery, Node.js, React amoung others.</p>
-                                <a href="public/assets/Resume.pdf" className="btn btn-dark">RESUME</a>
+                                <a href="/dreami-react-portfolio/Resume.pdf" className="btn btn-dark">RESUME</a>
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ function Home() {
                 <nav
                     className="navbar fixed-bottom navbar-light bg-transparent flex-fill justify-content-center padding-top: 60px;">
                     <span className="navbar-text">
-                        win win win win <span role="img" aria-label="Heart">❤️</span> &COPY; andreaMgamez </span>
+                        win win win win <span role="img" aria-label="Heart">❤️</span> <span dangerouslySetInnerHTML={{ "__html": "&copy;" }} /> andreaMgamez </span>
                 </nav>
             </footer>
         </Fragment>
