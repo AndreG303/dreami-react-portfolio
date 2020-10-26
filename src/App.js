@@ -1,9 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './css/body.css';
-
 import Home from './pages/home';
-import Portfolio from "./pages/Portfolio"
+import Portfolio from "./pages/portfolio"
 import Contact from "./pages/contact"
 import {HashRouter as Router, Route} from 'react-router-dom';
 
