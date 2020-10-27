@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React, { Fragment } from 'react';
-import { Link } from 'react-router-dom';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 
 function Home() {
@@ -20,24 +21,7 @@ function Home() {
                         aria-hidden="true"></i></a>
                 </div>
             </header>
-            <nav className="navbar navbar-expand-lg navbar-light">
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                </button>
-                <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav">
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/">About</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/portfolio">Portfolio</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/contact">Contact</Link>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            <Navbar />
             <section>
                 <div className="container card mb-3" style={{ maxWidth: "540px" }}>
                     <div className="row no-gutters">
@@ -55,13 +39,7 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <footer className="footer">
-                <nav
-                    className="navbar fixed-bottom navbar-light bg-transparent flex-fill justify-content-center padding-top: 60px;">
-                    <span className="navbar-text">
-                        win win win win <span role="img" aria-label="Heart">❤️</span> <span dangerouslySetInnerHTML={{ "__html": "&copy;" }} /> andreaMgamez </span>
-                </nav>
-            </footer>
+         <Footer />
         </Fragment>
     )
 }

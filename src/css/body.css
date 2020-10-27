@@ -16,7 +16,6 @@ body{
     background-color: #000000;
     color: #ffffff;
     margin: auto;
-    height:14rem;
     text-align: center;
     background-repeat:no-repeat ;
   }
@@ -37,6 +36,6 @@ body{
   }
   
   .footer {
-    margin-top: 20px;
-    padding-top: 20px;
+    margin-top: 40px;
+    padding-top: 40px;
   }

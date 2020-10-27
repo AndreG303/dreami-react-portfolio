@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React, { Fragment } from 'react';
-import { Link } from 'react-router-dom';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 function Contact() {
     return (
@@ -11,24 +12,7 @@ function Contact() {
                     <p className="lead">Ready to win...Win Win Win</p>
                 </div>
             </header>
-            <nav className="navbar navbar-expand-lg navbar-light">
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                </button>
-                <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav">
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/">About</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/portfolio">Portfolio</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/contact">Contact</Link>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            <Navbar />
             <main className="container">
                 <div className="row justify-content-around">
                     <h5>CONTACT ME</h5>
@@ -78,13 +62,7 @@ function Contact() {
                     </div>
                 </div>
             </main>
-            <footer className="footer">
-                <nav
-                    className="navbar fixed-bottom navbar-light bg-transparent flex-fill justify-content-center padding-top: 60px;">
-                    <span className="navbar-text">
-                        win win win win <span role="img" aria-label="Heart">❤️</span><span dangerouslySetInnerHTML={{ "__html": "&copy;" }} /> andreaMgamez </span>
-                </nav>
-            </footer>
+            <Footer />
         </Fragment>
     )
 }
