@@ -79,7 +79,7 @@ function Portfolio() {
                                 <h3 className="card-title">EMPLOYEE TEMPLATE GENERATOR</h3>
                                 <img src="/dreami-react-portfolio/assets/images/Screen Shot 2020-08-11 at 7.13.40 PM copy.png" className="card-img-top" alt="Smokey game" />
                                 <p className="card-text">A software engineering team generator command line application</p>
-                                <a href=" https://drive.google.com/file/d/18rUBUSQHDcW95uvquIuncjn5_MjgWrYK/view" className="btn btn-primary">check it out</a>
+                                <a href="https://drive.google.com/file/d/18rUBUSQHDcW95uvquIuncjn5_MjgWrYK/view" className="btn btn-primary">check it out</a>
                                 <a href="https://github.com/AndreG303/Employee-Template-Generator-" className="btn btn-primary">Github
                             Repository</a>
                             </div>
