@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7f753d508bf4df60bd9665addfc00a2a",
+    "revision": "2e33dfa3f0fd2202e16ce4c2d7190b53",
     "url": "/dreami-react-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dreami-react-portfolio/static/css/2.6414bb7b.chunk.css"
   },
   {
-    "revision": "8b2497eee5a38fe94de2",
+    "revision": "da54ee37b220efe26a26",
     "url": "/dreami-react-portfolio/static/css/main.49ba8448.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dreami-react-portfolio/static/js/2.cd18b4e7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8b2497eee5a38fe94de2",
-    "url": "/dreami-react-portfolio/static/js/main.7f67fa5c.chunk.js"
+    "revision": "da54ee37b220efe26a26",
+    "url": "/dreami-react-portfolio/static/js/main.77d977b7.chunk.js"
   },
   {
     "revision": "f777bce79b87a8930603",

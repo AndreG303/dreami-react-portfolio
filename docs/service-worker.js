@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dreami-react-portfolio/precache-manifest.00142e1f32680b4c1694612d14c11da4.js"
+  "/dreami-react-portfolio/precache-manifest.baf685adc26b53bff887e3cfe34352aa.js"
 );
 
 self.addEventListener('message', (event) => {
