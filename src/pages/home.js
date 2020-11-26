@@ -32,7 +32,7 @@ function Home() {
                             <div className="card-body">
                                 <h3 className="card-title">ANDREA M GAMEZ</h3>
                                 <p className="card-text">Creative Full Stack Web Developer with a broad customer service background.
-                                Bilingual, problem solver, versatile, organized and detail-oriented. Skilled in HTML, CSS, Bootstrap, JavaScript, JQuery, Node.js, React amoung others.</p>
+                                Bilingual, problem solver, versatile, organized and detail-oriented. Skilled in HTML, CSS, Bootstrap, JavaScript, JQuery, Node.js, React among others.</p>
                                 <a href="/dreami-react-portfolio/Resume1.pdf" className="btn btn-dark">RESUME</a>
                             </div>
                         </div>
